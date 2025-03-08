@@ -1,1 +1,24 @@
-{}
+{
+  "semi": false,
+  "singleQuote": true,
+  "jsxSingleQuote": true,
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
+  "importOrder": [
+    "^react",
+    "^[a-z]",
+    "^@?\\w",
+
+    "^\\u0000",
+
+    "^\\.\\.(?!/?$)",
+    "^\\.\\./?$",
+
+    "^\\./(?=.*/)(?!/?$)",
+    "^\\.(?!/?$)",
+    "^\\./?$",
+
+    "^.+\\.?(scss)$"
+  ],
+  "importOrderSeparation": true,
+  "importOrderSortSpecifiers": true
+}
